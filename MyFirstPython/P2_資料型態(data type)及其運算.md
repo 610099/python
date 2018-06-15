@@ -85,23 +85,26 @@ max(stringb)
 min(stringb)
 索引運算子[]
 ```
-
+ ![image](https://github.com/610099/python/blob/master/pic/3.PNG)
 #### str 類別的+、 *、 [ : ] 與 in 運算子
 ```
 s = '}FTC NOCTIH ot emocleW{noctih'
 
 ''.join(reversed(s))
 ```
+ ![image](https://github.com/610099/python/blob/master/pic/4.PNG)
 #### replace()取代
 ```
 string1 = "I love you"
 string1.replace("love","hate")
 ```
+ ![image](https://github.com/610099/python/blob/master/pic/5.PNG)
 #### join()
 ```
 '_'.join("Dragon")
 'x'.join("Dragon")
 ```
+ ![image](https://github.com/610099/python/blob/master/pic/6.PNG)
 #### split()
 ```
 string1 = "I love you"
@@ -132,7 +135,7 @@ s[0:3]
 s[::2]
 s[::-1]
 ```
-
+ ![image](https://github.com/610099/python/blob/master/pic/7.PNG)
 
 ### 字串(string)的應用:編碼與解碼
 
@@ -149,28 +152,28 @@ ASCII 採用 1 個byte編碼字元，最多只能表示 256 個符號。
 
 ### 如何操縱Unicode字串[Python3]
 ```
-s=u'台南'
+s=u'台北'
 type(s)
 len(s)
 s
 
 
-s1='台南'
+s1='台北'
 len(s1)
 
-s2='Dragon'
+s2='water'
 len(s2)
 
-s3='台南Dragon'
+s3='台北water'
 len(s3)
 
 # 中文與英文字元同等對待，都算一個字元
 
 # 可以使用中文作為變數名稱
 
-地點='台南'
-學校='台南一中'
-年代=2018
+地點='台北'
+學校='台串'
+年代=2020
 
 print(地點)
 print(學校)
@@ -355,7 +358,7 @@ max(list1)
 min(list1)
 sum(list1) 
 ```
-
+ ![image](https://github.com/610099/python/blob/master/pic/8.PNG)
 ### list的各種函數2:串列的加法|乘法與分割運算
 
 [動手做]下列範例會產生何種結果
@@ -369,7 +372,8 @@ list4 = 3 * list1
 list4
 list5 = list3[2:4]
 list5
-```
+``` 
+![image](https://github.com/610099/python/blob/master/pic/9.PNG)
 ### list的各種函數3:串列的分割運算
 ```
 items = "Welcome to the MyFirstCTF".split() 
@@ -393,7 +397,8 @@ a=[12,212,321,325]
 x,y,z,k = a
 z
 ```
-
+![image](https://github.com/610099/python/blob/master/pic/10.PNG)
+### list的各種函數3:串列的分割運算
 ### list的超強大功能list comprehension列表生成式 
 ```
 A list comprehension consists of brackets containing an expression followed by a for clause, 
@@ -405,7 +410,7 @@ https://en.wikipedia.org/wiki/List_comprehension
 ```
 
 ```
-list1 = [x for x range(0, 5)] # Returns a list of 0, 1, 2, 4
+list1 = [x for x in range(0, 5)] # Returns a list of 0, 1, 2, 4
 list1 
 list2 = [0.5 * x for x in list1] 
 list2
