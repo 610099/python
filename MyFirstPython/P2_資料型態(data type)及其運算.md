@@ -77,7 +77,7 @@ stringb = str("MyfirstCTF")
 
 string1 = "I love you"
 ```
-
+ ![image](https://github.com/610099/python/blob/master/pic/2.PNG)
 #### str 類別有許多方法(運算子)與函數
 ```
 len(stringb)
